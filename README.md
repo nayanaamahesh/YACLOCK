@@ -15,7 +15,7 @@ This allows more fine-grained control over buffer replacement, improving buffer 
 
 ## Features
 
-- Fully implemented **YACLOCK replacement policy** integrated with PostgreSQL.
+- Fully implemented **YACLOCK replacement policyx** integrated with PostgreSQL.
 - Benchmarking scripts to compare YACLOCK against the default Clock policy.
 - Automated test cases validating correct behavior for pin/unpin operations on pages.
 - Configurable PostgreSQL server setup using included scripts (`install.sh`, `settings.sh`).
@@ -26,7 +26,7 @@ This allows more fine-grained control over buffer replacement, improving buffer 
    ```bash
    git clone https://github.com/<username>/yaclock-postgresql.git
    cd yaclock-postgresql
-````
+    ```
 
 2. Install PostgreSQL 17.6 from source:
 
@@ -75,11 +75,3 @@ Contributions and optimizations are welcome. Please ensure that all changes pres
 
 This project is open source and available under the MIT License.
 
-```
-
----
-
-If you want, I can also create a **shorter, punchier version of the README** that’s more GitHub-friendly with badges and highlights for performance/tech stack, which often looks nicer for recruiters or open-source viewers.  
-
-Do you want me to do that?
-```
